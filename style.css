@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* 共通 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-space {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: calc(800px - 20%);
+}
+
+.btn {
+    all:unset;
+    background-color: #baa7cc;
+    color: white;
+    border-radius: 20%;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* ヘッダー */
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* フォーム */
+
+form {
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* リスト */
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-top: 32px;
+}
+
+li + li {
+    margin-top: 16px;
+}
+
+/* 横線 */
+
+.line { 
+    text-decoration: line-through;
+}
